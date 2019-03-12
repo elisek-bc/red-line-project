@@ -1,0 +1,26 @@
+.navbar {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 80px;
+}
+
+.navbar-brand {
+    position: absolute;
+    margin-top: 15px;
+}
+
+.active {
+    font-weight: 700;
+}
+
+
+#reserveer {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+    color: white;
+    background-color: #FE491B;
+    border-radius: 2rem;
+    margin-left: 2em;
+}
