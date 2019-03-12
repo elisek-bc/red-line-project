@@ -13,10 +13,10 @@
 </head>
 
 <body>
-
+<!--This is the header-->
     <header>
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+<!--This is the navigation-->
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white">
         
         <a class="navbar-brand" href="#">
         <img src="Logo-kattendroom.png" height="100" alt="kattendroom-logo">
@@ -26,7 +26,7 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse mt-4 justify-content-end">
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -56,24 +56,35 @@
           </div>
         </nav>
 
-        <div>
-            <p>Welkom op de website van ‘Kattendroom’, ik ben Nancy, de gastvrouw van dit bijzondere hotel namelijk een kattenhotel.</p>
+<!--This is header picture with text-->
+        <div id="bg">
+            <img src="Kattendroom-header.jpg" class="img-fluid" alt="header katten" width=100%>
+            <div>
+                <p>Welkom op de website van ‘Kattendroom’, ik ben Nancy, de gastvrouw van dit bijzondere hotel namelijk een kattenhotel.</p>
+            </div>
         </div>
     </header>
 
-    <div class="wrapper">
+    <div class="wrapper m-5">
         <div class="content">
-            <div class="intronews">
-                <div class="intro">
+
+            <div class="row intronews">
+                <div class="col-md-6 m-auto intro">
                     <p>Kattendroom is een gezellig familiaal kattenhotel die uw kat liefdevol opvangt tijdens uw afwezigheid. Wij bieden alles wat een kattenhartje wenst. Zo worden we vast en zeker het favoriete vakantieadresje van uw kat!</p>
                 </div>
-                <div class="news">
-                    <p>
-                    <h3>Winter 2019</h3>
-                    <p>Knijpt u er binnenkort nog even tussenuit om te skieën of even naar de zon? Vergeet dan uw lieve kat niet en reserveer een droomvakantie bij Kattendroom!<br>
-                    Uw kat zal u dankbaar zijn =^.^=</p>
+
+                <div class="col-md-4 m-auto">
+                    <div class="card news">
+                        <h5 class="card-header">Nieuws</h5>
+                        <div class="card-body">
+                        <h5 class="card-title">Winter 2019</h5>
+                        <p class="card-text">Knijpt u er binnenkort nog even tussenuit om te skieën of even naar de zon? Vergeet dan uw lieve kat niet en reserveer een droomvakantie bij Kattendroom!<br>
+                        Uw kat zal u dankbaar zijn =^.^=</p>
+                        <a href="#" class="btn btn-primary">Reserveer</a>
+                    </div>
                 </div>
             </div>
+
             <div class="hotel">
                 <div class="imghotel">
                     <img>
