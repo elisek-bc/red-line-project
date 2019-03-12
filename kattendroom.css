@@ -77,6 +77,31 @@ h2 {
     margin-bottom: 3%;
 }
 
+hr {
+    border-top: 2px dotted white;
+}
+/*This is card styling for DT*/
+.card {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #2f2f2f;
+}
+
+.card-header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #2f2f2f;
+    text-transform: uppercase;
+    background-color:#F8B732;
+    border-bottom: none;
+}
+.card-title {
+    font-family: "Pacifico", cursive;
+    font-size: 28px;
+    color: #2f2f2f;
+    margin-bottom: 3%;
+}
 /*Button styling*/
 .btn {
     border-radius: 2rem;
