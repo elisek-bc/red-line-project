@@ -1,3 +1,5 @@
+/*This is header + navbar styling for DT*/
+
 .navbar {
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
@@ -32,11 +34,43 @@
 
 .text-header {
     position: absolute;
+    top: 20px;
+    right: 20px;
+    left: 50%;
     background-color: #4ABCAD;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 1em;
     border-radius: 3rem;
-    left: 50%; 
-    transform: translateX(-50%);
 }
 
+.text-header h3 {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Pacifico", cursive;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+.text-header p {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+/*This is mainpage styling for DT*/
+
+body {
+    background-color: #E0DCE4;
+}
+
+/*This is footer styling for DT*/
+
+footer {
+    background-color:#4ABCAD;
+    padding: 30px 0 1px 0;
+}
+
+footer div {
+    margin: 0 20px 0 20px;
+}
