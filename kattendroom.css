@@ -13,8 +13,7 @@
 .active {
     font-weight: 700;
 }
-
-
+    
 #reserveer {
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
@@ -24,3 +23,20 @@
     border-radius: 2rem;
     margin-left: 2em;
 }
+
+#bg {
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+
+.text-header {
+    position: absolute;
+    background-color: #4ABCAD;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3rem;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
