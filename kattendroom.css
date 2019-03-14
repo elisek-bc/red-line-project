@@ -27,13 +27,13 @@
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
     font-weight: 800;
-    color: white !important;
     background-color: #FE491B;
     border-radius: 2rem;
-    margin-left: 1em;
-    margin-right: .5em;
-    padding: 3px;
+    padding: 10px;
+    margin-left: 15px;
 }
+
+/* Hover state does not work yet */
 
 #bg {
     position: relative;
@@ -166,7 +166,18 @@ footer h4{
     color:white;
     margin-bottom: 6%;
 }
+.social {
+    margin: 0 5% 0 5%;
+    padding: 20px !important;
+}
 
+.social h4 {
+    color: #FE491B;
+}
+
+.social img {
+    width: 32px;
+}
 footer ul {
     list-style:none;
     margin: 0;
