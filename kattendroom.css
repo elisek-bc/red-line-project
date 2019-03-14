@@ -17,10 +17,6 @@
         height: 80px;
         padding-top: 35px;
     }
-    .navbar-nav {
-        padding:auto;
-        float:right;
-    }
 
 }
 
@@ -180,6 +176,7 @@ footer h4{
 .social {
     margin: 0 5% 0 5%;
     padding: 20px !important;
+    text-align:center;
 }
 
 .social h4 {
@@ -189,6 +186,12 @@ footer h4{
 .social img {
     width: 32px;
 }
+
+.social img:hover {
+    width: 32px;
+    filter: opacity(80%)
+}
+
 footer ul {
     list-style:none;
     margin: 0;
@@ -205,4 +208,33 @@ footer ul a {
 footer ul a:hover {
     color:white;
     text-decoration:none;
+}
+
+.hours ul {
+    list-style:none;
+}
+
+@media screen and (max-width: 992px) {
+.data ul {
+    padding-bottom: 5%;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-space {
+        margin-top: 20px;
+    }
+
+    .mobile-space-double {
+        margin-top: 40px;
+    }
+
+    footer {
+        text-align:center;
+    }
+
+    footer h4{
+        margin-bottom: 2%;
+    }
+
 }
