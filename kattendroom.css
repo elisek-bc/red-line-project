@@ -2,28 +2,37 @@
 
 .navbar {
     font-family: "Open Sans", sans-serif;
-    font-size: 1em;
+    font-size: 14px;
     font-weight: 400;
     height: 80px;
+    padding-top: 35px;
 }
 
 .navbar-brand {
     position: absolute;
-    margin-top: 15px;
+    margin-top: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .active {
     font-weight: 700;
 }
-    
+
 #reserveer {
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
     font-weight: 800;
-    color: white;
+    color: white !important;
     background-color: #FE491B;
     border-radius: 2rem;
-    margin-left: 2em;
+    margin-left: 1em;
+    margin-right: .5em;
+    padding: 3px;
 }
 
 #bg {
