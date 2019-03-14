@@ -85,13 +85,6 @@ hr {
     transform: rotate(5deg);
 }
 
-.c2a {
-    background-color: #FE491B !important;
-}
-
-.c2a h2 {
-    color:white;
-}
 /*This is card styling for DT*/
 .card {
     font-family: "Open Sans", sans-serif;
@@ -130,6 +123,19 @@ hr {
 /*Carousel styling*/
 .border {
     border:5px solid white !important;
+}
+
+/*C2A styling*/
+.c2a {
+    background-color: #FE491B !important;
+}
+
+.c2a h2 {
+    color:white;
+}
+
+.c2a p {
+    color:white;
 }
 
 /*I want to turn this carousel -5 degrees - to be continued */ 
