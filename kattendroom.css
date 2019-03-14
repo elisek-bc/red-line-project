@@ -1,16 +1,27 @@
-/*This is header + navbar styling for DT*/
+/*This is header + navbar styling for Mobile*/
 
 .navbar {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    height: 80px;
-    padding-top: 35px;
+    height: 100px;
 }
 
 .navbar-brand {
-    position: absolute;
     margin-top: 0px;
+}
+
+/*This is header + navbar styling for DT*/
+@media screen and (min-width: 992px){
+    .navbar {
+        height: 80px;
+        padding-top: 35px;
+    }
+    .navbar-nav {
+        padding:auto;
+        float:right;
+    }
+
 }
 
 .navbar-light .navbar-nav .nav-link {
