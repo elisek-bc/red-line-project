@@ -237,4 +237,7 @@ footer ul a:hover {
         margin-bottom: 2%;
     }
 
+    .hours .row {
+        justify-content: center;
+    }
 }
