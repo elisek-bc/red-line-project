@@ -347,3 +347,10 @@ footer ul a:hover {
     margin-left:0;
     
 }
+
+.form-control {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px !important;
+    color: #2f2f2f;
+    list-style:none;
+}
