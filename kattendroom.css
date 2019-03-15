@@ -331,3 +331,19 @@ footer ul a:hover {
     list-style:none;
     padding:0;
 }
+
+.gegevens a {
+    text-decoration:none;
+    color: #2f2f2f;
+}
+
+.gegevens a:hover {
+    color: #4ABCAD;
+}
+
+.contactline {
+    border-top: 3px solid #4ABCAD;
+    width: 30%;
+    margin-left:0;
+    
+}
