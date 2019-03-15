@@ -84,6 +84,7 @@ p {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #2f2f2f;
+    line-height: 28px;
 }
 
 h2 {
@@ -91,6 +92,15 @@ h2 {
     font-size: 36px;
     color:#FE491B;
     margin-bottom: 3%;
+}
+
+h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform:uppercase;
+    color: #2f2f2f;
+    line-height: 22px;
 }
 
 hr {
@@ -119,10 +129,17 @@ hr {
 }
 .card-title {
     font-family: "Pacifico", cursive;
+    text-transform:none;
+    font-weight: 400;
     font-size: 28px;
     color: #2f2f2f;
     margin-bottom: 3%;
 }
+
+.card p {
+    line-height: 22px;
+}
+
 /*Button styling*/
 
 .btn {
@@ -240,4 +257,26 @@ footer ul a:hover {
     .hours .row {
         justify-content: center;
     }
+}
+
+/*This is Hotel page highlight styling*/
+
+.thickline {
+    width: 10%;
+    border-top: 3px solid #F8B732;
+    margin-bottom:10px;
+}
+
+.highlights p {
+    line-height: 22px; 
+
+}
+
+.highlights img {
+    height: 64px;
+    margin-bottom: 15px;
+}
+
+.small-icon {
+    height: 45px !important;
 }
