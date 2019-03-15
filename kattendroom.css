@@ -41,6 +41,9 @@
 }
 
 /* Hover state does not work yet */
+/*************************END OF NAVBAR STYLING***************************/
+
+/* Header image */
 
 #bg {
     position: relative;
@@ -73,6 +76,8 @@
     font-size: 14px;
     line-height: 1.5em;
 }
+
+/*************************END OF HEADER STYLING***************************/
 
 /*This is mainpage styling for DT*/
 
@@ -112,6 +117,7 @@ hr {
 }
 
 /*This is card styling for DT*/
+
 .card {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -258,6 +264,29 @@ footer ul a:hover {
         justify-content: center;
     }
 }
+/*************************END OF FOOTER STYLING***************************/
+
+
+/*HOTEL PAGE*/
+/*This is hotel carousel styling*/
+
+#bghotel {
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+
+.text-header-hotel h2{
+    position: absolute;
+    bottom: 1%;
+    right:30%;
+    left:30%;
+    padding: 0.5em;
+    border-radius: 3rem;
+    font-family: "Pacifico",cursive;
+    color:white;
+    filter: drop-shadow(0px 0px 4px black)
+}
 
 /*This is Hotel page highlight styling*/
 
@@ -281,22 +310,5 @@ footer ul a:hover {
     height: 45px !important;
 }
 
-/*This is hotel carousel styling*/
-
-#bghotel {
-    position: relative;
-    text-align: center;
-    color: white;
-    }
-
-.text-header-hotel h2{
-    position: absolute;
-    bottom: 1%;
-    right:30%;
-    left:30%;
-    padding: 0.5em;
-    border-radius: 3rem;
-    font-family: "Pacifico",cursive;
-    color:white;
-    filter: drop-shadow(0px 0px 4px black)
-}
+/*************************END OF HOTEL PAGE STYLING***************************/
+/*Contact page styling*/
