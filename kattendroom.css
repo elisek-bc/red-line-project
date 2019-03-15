@@ -99,6 +99,13 @@ h2 {
     margin-bottom: 3%;
 }
 
+h4 {
+    font-family: "Pacifico", cursive;
+    font-size: 28px;
+    color:#2f2f2f;
+    margin-bottom: 3%;
+}
+
 h5 {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
@@ -315,4 +322,12 @@ footer ul a:hover {
 
 .maps {
     background-color:#4ABCAD;
+}
+
+.gegevens ul {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #2f2f2f;
+    list-style:none;
+    padding:0;
 }
