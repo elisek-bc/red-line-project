@@ -37,8 +37,3 @@ I made the website with HTML and CSS only, based on the Bootstrap framework.
 1. Hover line effect on items in navbar
 
 2. Turning carousel 5 degrees cc
-
-3. Making the arrows of carousel work
-
-4. Make links work
-
