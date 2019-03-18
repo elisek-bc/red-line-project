@@ -38,4 +38,4 @@ I made the website with HTML and CSS only, based on the Bootstrap framework.
 
 2. Turning carousel 5 degrees cc
 
-3. Optional errorpage for non-existing pages
+3. Optimizing error page
