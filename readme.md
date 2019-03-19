@@ -39,3 +39,5 @@ I made the website with HTML and CSS only, based on the Bootstrap framework.
 2. Turning carousel 5 degrees cc
 
 3. Optimizing error page
+
+4. 74% SEO rating is just not enough to succeed in this assignment...Can't figure out to do it better though. 
